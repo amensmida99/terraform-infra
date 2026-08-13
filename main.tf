@@ -19,7 +19,6 @@ provider "azurerm" {
   features {}
 }
 
-# Unused for now - kept in case AWS resources are added later.
 provider "aws" {
   region = var.aws_region
 }
